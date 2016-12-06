@@ -9,13 +9,14 @@
  *
  * @author Wafer Li
  * @since 16/12/6 13:33
+ * @see [](https://dmoj.ca/problem/16bitswonly)
  */
 
 fun main(args: Array<String>) {
-     readLine()?.toInt() ?: throw NoSuchFieldException("Line count is null!")
+    readLine()?.toInt() ?: throw NoSuchFieldException("Line count is null!")
 
     var line = readLine()
-    while (line != null && line !=  "") {
+    while (line != null && line != "") {
         val numbers: List<String> = line.split(" ")
 
         val a = numbers[0].toLong()
@@ -25,8 +26,7 @@ fun main(args: Array<String>) {
 
         if (numbers[2].toLong() != c) {
             println("16 BIT S/W ONLY")
-        }
-        else {
+        } else {
             println("POSSIBLE DOUBLE SIGMA")
         }
 
