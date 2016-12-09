@@ -1,6 +1,9 @@
 /**
  * This is the A20 class
- * Please put some info here.
+ *
+ * Very simple, just check whether the 20th bit is 1,
+ * if so, it means it can be flipped.
+ * And just flip it.
  *
  * @author Wafer Li
  * @since 16/12/8 16:50
